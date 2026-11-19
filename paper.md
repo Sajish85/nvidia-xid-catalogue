@@ -1,8 +1,8 @@
-# Data article (Data in Brief style) — draft, not submitted
+# Data article (Data in Brief style)
 
 **Title.** A source-linked catalogue of NVIDIA GPU Xid error codes with documented-action classification
 
-**Author.** Sajish Krishnan. Affiliation: Independent researcher. ORCID: [ORCID to be added]
+**Author.** Sajish Krishnan. Affiliation: Independent researcher. ORCID: https://orcid.org/0009-0009-7561-9290
 
 **Abstract.** NVIDIA drivers report GPU faults to the system log as numbered Xid events. The numbers and their meanings are published in several places that differ in coverage and, for 10 codes, in naming. This dataset joins four NVIDIA-published sources into one table with one row per Xid code: 186 codes, numbered 1 to 186. Each row carries the names used by the sources, the product-applicability flags and resolution buckets from the documentation catalogue, a short own-words summary, three classification fields (subsystem, derived severity, documented recovery action) with the stated basis for each value, and pointers to the source locations. Where the sources give no support, the field holds "not documented". The files are a CSV and a JSON file with identical content, a data dictionary, a source list, a classification guide and a QA report. The release does not include SXID (NVSwitch) codes, which none of the four sources lists.
 
@@ -17,7 +17,7 @@
 | How the data were acquired | Retrieval of public NVIDIA web pages and one public source header on 2026-11-18; extraction by script; classification by stated rules |
 | Data format | Curated; 186 rows, 35 columns |
 | Data source | docs.nvidia.com (Xid Errors, GPU Debug Guidelines); github.com/NVIDIA/open-gpu-kernel-modules, file nverror.h, commit e6a2e01579fb |
-| Data accessibility | Repository: Zenodo. DOI: [DOI to be assigned on deposit] |
+| Data accessibility | Repository: Zenodo. DOI: 10.5281/zenodo.24362095 |
 
 ## Value of the Data
 - The catalogue gives one machine-readable row for each of 186 Xid codes, joined across four sources, with a pointer back to each source location. Log parsers and alert rules can use it as a lookup table.
@@ -83,7 +83,7 @@ Code numbers, names, applicability flags and bucket identifiers are reproduced a
 The author declares no known competing financial interests or personal relationships that could have appeared to influence the work reported in this article.
 
 ## Data availability
-The dataset is deposited in Zenodo. DOI: [DOI to be assigned on deposit].
+The dataset is deposited in Zenodo. DOI: 10.5281/zenodo.24362095.
 
 ## CRediT
 Sajish Krishnan: conceptualisation, data curation, methodology, writing.

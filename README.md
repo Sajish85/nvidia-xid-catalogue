@@ -62,4 +62,4 @@ Sajish Krishnan, Independent researcher
 
 ## Citation
 
-Krishnan, S. (2026). NVIDIA Xid error code catalogue (v1) [Data set]. DOI: [DOI to be assigned on deposit]
+Krishnan, S. (2026). NVIDIA Xid error code catalogue (v1) [Data set]. DOI: https://doi.org/10.5281/zenodo.24362095
