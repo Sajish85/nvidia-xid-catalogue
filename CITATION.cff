@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+authors:
+  - family-names: "Krishnan"
+    given-names: "Sajish"
+    orcid: "https://orcid.org/0009-0009-7561-9290"
+    affiliation: "Independent researcher"
+title: "NVIDIA GPU XID Error Catalogue"
+date-released: 2026-11-19
+year: 2026
+doi: "10.5281/zenodo.24362095"
+url: "https://github.com/Sajish85/nvidia-xid-catalogue"
+license: CC-BY-4.0

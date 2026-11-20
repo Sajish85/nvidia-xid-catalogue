@@ -63,3 +63,17 @@ Sajish Krishnan, Independent researcher
 ## Citation
 
 Krishnan, S. (2026). NVIDIA Xid error code catalogue (v1) [Data set]. DOI: https://doi.org/10.5281/zenodo.24362095
+
+## How to cite
+
+```bibtex
+@misc{krishnan2026xidcatalogue,
+  author       = {Krishnan, Sajish},
+  title        = {{NVIDIA} {GPU} {XID} Error Catalogue},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.24362095},
+  url          = {https://github.com/Sajish85/nvidia-xid-catalogue},
+  note         = {ORCID: 0009-0009-7561-9290. Licence: CC BY 4.0}
+}
+```
