@@ -17,7 +17,7 @@
 | How the data were acquired | Retrieval of public NVIDIA web pages and one public source header on 2026-11-18; extraction by script; classification by stated rules |
 | Data format | Curated; 186 rows, 35 columns |
 | Data source | docs.nvidia.com (Xid Errors, GPU Debug Guidelines); github.com/NVIDIA/open-gpu-kernel-modules, file nverror.h, commit e6a2e01579fb |
-| Data accessibility | Repository: Zenodo. DOI: 10.5281/zenodo.24362095 |
+| Data accessibility | Repository: Zenodo. DOI: 10.5281/zenodo.24362094 |
 
 ## Value of the Data
 - The catalogue gives one machine-readable row for each of 186 Xid codes, joined across four sources, with a pointer back to each source location. Log parsers and alert rules can use it as a lookup table.
@@ -83,7 +83,7 @@ Code numbers, names, applicability flags and bucket identifiers are reproduced a
 The author declares no known competing financial interests or personal relationships that could have appeared to influence the work reported in this article.
 
 ## Data availability
-The dataset is deposited in Zenodo. DOI: 10.5281/zenodo.24362095.
+The dataset is deposited in Zenodo. DOI: 10.5281/zenodo.24362094.
 
 ## CRediT
 Sajish Krishnan: conceptualisation, data curation, methodology, writing.
